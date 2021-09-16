@@ -1,2 +1,2 @@
 # special topics
- covid map lol
+ covid map
