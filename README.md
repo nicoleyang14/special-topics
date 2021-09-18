@@ -1,5 +1,4 @@
 # special topics
-covid map
-Description:
-
-innovative, new, exciting, cool, map, special
+Name tbd
+####
+Refer to Draft Project Spec.docx for more information regarding this project
