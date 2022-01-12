@@ -18,7 +18,7 @@ Functionality on the git is currently limited. The primary point to access the p
 ## Website: https://henryrodgers.github.io
  Refer to https://github.com/henryrodgers/henryrodgers.github.io for website repository. Please only visit if instructed to do so.
 
-Primary Modules:
+# Primary Modules:
 * import api.java - test module, supplemented in website repository.
 * index.md - this file produces the html code for the main page of the website.
 * _config.yml - this file initialized the website in github and allows for hosting to occur automatically.
