@@ -15,8 +15,8 @@ Functionality on the git is currently limited. The primary point to access the p
 Please look through the website, as linked below, to ensure all existing features are functioning correctly. There is not too much to test, however, please do test the one existing interactive feature, the mapping API. It should be centered on the International School when the website is first opened, and able to be moved to any location. Please test this by moving the website to an easily referencable test location. If this does not function correctly and easily, please email one of us or create an issue at the link below where Known Issues are currently held.
 
 
-### Website: https://henryrodgers.github.io
- Refer to https://github.com/henryrodgers/henryrodgers.github.io for website repository. Please only visit if instructed to do so.
+### Website
+ Please visit the website here (https://henryrodgers.github.io) to test the existing hosted content. Refer to https://github.com/henryrodgers/henryrodgers.github.io for website repository. This code does not need to be cloned onto your system, as it is hosted automatically through the website.
 
 ## Primary Modules:
 * import api.java - test module, supplemented in website repository.
