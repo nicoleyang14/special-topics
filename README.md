@@ -26,3 +26,4 @@ Please look through the website, as linked below, to ensure all existing feature
 Refer to Draft Project Spec.docx for more information regarding this project
 
 Known Issues: https://github.com/nicoleyang14/special-topics/issues
+You may also use the link above for any suggestions or bug reports. It will require a GitHub account to create a new Issue, so if you are unable to create or log in to an account, please just email one of us (s-rodgersh@bsd405.org or s-yangn@bsd405.org) with your feedback.
