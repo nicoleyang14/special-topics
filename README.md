@@ -5,14 +5,14 @@ Any device with a web browser that has access to the internet.
 
 ## To Initialize
 Functionality on the git is currently limited. The primary point to access the project is to visit the website, linked below, however please attempt to copy the git onto your computer for the first beta test. This will provide time to resolve any initial issues you have with cloning the git, so please contact us if you have trouble following the instructions below.
-* Download GitHub Desktop from the Software Center.
-* Navigation to https://github.com/nicoleyang14/special-topics/
-* Above the list of files, click Code.
-* Click the Copy button next to the Clone with HTTPS field.
+* Install GitHub Desktop from the Software Center.
 * Open GitHub Desktop
 * Click File > Clone Repository > URL
-* Paste in the copied link.
+* Paste in https://github.com/nicoleyang14/special-topics/
 * Click 'Clone'.
+
+### Test Scenarios
+Please look through the website, as linked below, to ensure all existing features are functioning correctly. There is not too much to test, however, please do test the one existing interactive feature, the mapping API. It should be centered on the International School when the website is first opened, and able to be moved to any location. Please test this by moving the website to an easily referencable test location. If this does not function correctly and easily, please email one of us or create an issue at the link below where Known Issues are currently held.
 
 
 ### Website: https://henryrodgers.github.io
