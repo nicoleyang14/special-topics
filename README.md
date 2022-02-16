@@ -12,9 +12,10 @@ Please visit the website here: https://henryrodgers.github.io to access the exis
 - Navigate through 4 different pages (Home, About, Map, Table)
 - Use map imported from Mapquest API
 - View table including API metadata
+- Sample Pandas Program
 
 ## Primary Modules:
-* import api.java - test module, supplemented in website repository.
+* import api.java - test module, supplemented in website repository. Includes sample pandas program in Python language, still ongoing internal testing before it will be ready for beta testers.
 * index.md - this file produces the html code for the main page of the website. Supplemented by about.md, map.md, and table.md, which are all individual pages in the html website.
 * _config.yml - this file initialized the website in github and allows for hosting to occur automatically. It also establishes the theme for the website, which is imported from a free and open-source project in GitHub. 
 
