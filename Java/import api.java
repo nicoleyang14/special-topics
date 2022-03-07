@@ -26,14 +26,18 @@ class solution {
 
 import pandas as pd
 
-data = {}
+data = {"state": ["Washington", "Texas", "California", "Florida", "New York"],
+        "capital": ["Olympia", "Austin", "Sacramento", "Tallahassee", "Albany"],
+        "covid": [],
+        "population": [7.61, 29, 39.51, 21.48, 8.42]}
 
 frame = pd.DataFrame(data)
 print(frame)
 
 print('------------------------------')
 
-frame.index = []
+frame.index = ["WA", "TE", "CA", "FL", "NE"]
 print(frame)
 
-//this creates their own custom index with the printed data frame that we can insert at a later time
+//this creates their own custom index with the printed data frame 
+
