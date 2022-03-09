@@ -6,21 +6,9 @@ import sys
 path = sys.path[0]
 endpath = input("Please enter the name of your data file here (without the file extension): ")
 path2 = path + "\\" + endpath + ".csv"
-print(path2)
-input()
 
 # Initialize the lists for X and Y
 data = pd.read_csv(path2)
-input()
-sub = '553'
-data.dropna(inplace = True)
-data["Indexes"] = data["2010"].str.find(sub)
-data
-input("post find")
-print(data["Indexes"])
-input("post print")
-data.pop("Indexes")
-input("post pop")
   
 df = pd.DataFrame(data)
   
