@@ -4,7 +4,7 @@ Our program will serve as a free and open-source program that allows users to up
 ## Prerequisites
 - Github Desktop
 - Python
-Both Prerequisites can be downloaded from the BSD Software Center.
+** Both Prerequisites can be downloaded from the BSD Software Center.
 
 ## Instructions
 1. Clone the Github Repository to your computer. More detailed instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
