@@ -8,7 +8,7 @@ endpath = input("Please enter the name of your data file here (without the file 
 path2 = path + "\\" + endpath + ".csv"
 
 # Initialize the lists for X and Y
-data = pd.read_csv(path2)
+data = pd.read_csv(path2)       
   
 df = pd.DataFrame(data)
   
