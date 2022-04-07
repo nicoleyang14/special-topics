@@ -23,5 +23,5 @@ plt.ylabel("Number of Students")
   
 # Show the plot
 plt.show()
-input()
+input("Type enter to exit")
 sys.exit()
