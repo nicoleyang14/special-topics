@@ -8,7 +8,7 @@ def main():
 
     data = pd.read_csv(path2)
 
-    find = input("Please enter the first column value: ")
+    find = input("Please enter an area code: ")
     # potentially unnecessary
     find = int(find)
     # from earlier attempts, potentially useful in future
