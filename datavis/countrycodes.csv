@@ -1,4 +1,4 @@
-0,Reserved
+Area Code,Region
 1,American Samoa
 1,Anguilla
 1,Antigua and Barbuda
@@ -39,7 +39,7 @@
 222,Mauritania (Islamic Republic of)
 223,Mali (Republic of)
 224,Guinea (Republic of)
-225,Côte d'Ivoire (Republic of)
+225,Cï¿½te d'Ivoire (Republic of)
 226,Burkina Faso
 227,Niger (Republic of the)
 228,Togolese Republic
@@ -171,7 +171,7 @@
 505,Nicaragua
 506,Costa Rica
 507,Panama (Republic of)
-508,Saint Pierre and Miquelon (Collectivité territoriale de la République française)
+508,Saint Pierre and Miquelon (Collectivitï¿½ territoriale de la Rï¿½publique franï¿½aise)
 509,Haiti (Republic of)
 51,Peru
 52,Mexico
@@ -209,15 +209,15 @@
 678,Vanuatu (Republic of)
 679,Fiji (Republic of)
 680,Palau (Republic of)
-681,Wallis and Futuna (Territoire français d'outre-mer)
+681,Wallis and Futuna (Territoire franï¿½ais d'outre-mer)
 682,Cook Islands
 683,Niue
 684,Spare code
 685,Samoa (Independent State of)
 686,Kiribati (Republic of)
-687,New Caledonia (Territoire français d'outre-mer)
+687,New Caledonia (Territoire franï¿½ais d'outre-mer)
 688,Tuvalu
-689,French Polynesia (Territoire français d'outre-mer)
+689,French Polynesia (Territoire franï¿½ais d'outre-mer)
 690,Tokelau
 691,Micronesia (Federated States of)
 692,Marshall Islands (Republic of the)
