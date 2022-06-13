@@ -1,3 +1,22 @@
+# Data Visualization Project 2.0
+This project consists of a demo followed by an input-based program in Python using Pandas, MatPlotLib, and Seaborn to process three data sets, combine them into one single data set, and enable the user to analyze and compare data points.
+
+The three data sets are located in datavis2/Database, and include a COVID-19 Case Count Dataset, an Economist World Database dataset that includes many general factors about all countries, and a Population data set, which was used to make the case data per capita.
+
+The programs are located in datavis2, as dvfunc.py and dvfunc2.py. dvfunc2.py is the working build of our project, however dvfunc.py still exists as a stable build demonstration of the basic functionality we have worked on, though it does not include the interactive features we have built since then, which have had most of their issues ironed out.
+
+Thank you! Other files in this repository can be disregared, unless looking at the information below here on the README page.
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+All information below here is for the First Semester project. Please disregard for non-archive purposes.
+
+
 # Data Visualization
 Our program will serve as a free and open-source program that allows users to upload data and choose a method of simple visualization. Our program's current form allows users to upload a very basic two-column CSV file and either create a bar chart or to search the file's first column for a specific resulting second column value.
 
