@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 import sys
 import os
 
-print('This function has initialized. This is a demo of data analysis functionality that analyses global COVID-19 cases from January 22nd, 2020 to April 30th, 2020.')
-
 path = sys.path[0]
 endpath = "Database\covid19_confirmed.csv"
 path2 = os.path.join(path, endpath)
@@ -81,7 +79,7 @@ input('Press enter to find the correlation index of each factor pair.')
 
 print('Correlation Index:')
 print(fulldata.corr())
-input('Press enter to compare the columsn on a graph.')
+input('Press enter to compare the columns on a graph.')
 
 x = fulldata['Freedom to make life choices']
 y = fulldata['Maximum Infection Rate']
@@ -102,20 +100,49 @@ pop.drop(columns_to_remove2, axis = 1, inplace = True)
 pop.set_index(['Country'], inplace = True)
 pcdata = fulldata.join(pop).copy()
 pcdata.to_csv(index=False)
-print(pcdata)
-input()
-pcdata["result"] = pcdata["Maximum Infection Rate"].div(pcdata['Population'])
-print(pcdata)
-input()
-#### multiplication DOES NOT WORK - NEEDS FIX
-pcdata['result'] = 10000 * pcdata['result']
-print(pcdata['result'])
-input()
+print('Unnecessary columns removed and population database adjoined.')
+pcdata["Max Infection Rate Per 10,000 Pop"] = pcdata["Maximum Infection Rate"].div(pcdata['Population'])
+print('Per Capita Infection Rate calculated.')
+pcdata['Max Infection Rate Per 10,000 Pop'] = 10000 * pcdata['Max Infection Rate Per 10,000 Pop']
+print('Per Capita data convered to Per 10,000')
+columns_to_remove3 = ['Population']
+pop.drop(columns_to_remove3, axis = 1, inplace = True)
+print('Raw Population Data removed.')
+factorn1 = input('Choose the first factor to compare. Enter 1 for GDP per capita, Enter 2 for Social Support, Enter 3 for Healthy Life Expectancy, Enter 4 for Freedom to Make Life Choices, or Enter 5 for Maximum Infection Rate per capita. ')
+if(factorn1 == "1"):
+    factorn2 = input('Choose the second factor to compare. Enter 2 for Social Support, Enter 3 for Healthy Life Expectancy, Enter 4 for Freedom to Make Life Choices, or Enter 5 for Maximum Infection Rate per capita. ')
+    factorn1 = "GDP per capita"
+if(factorn1 == "2"):
+    factorn2 = input('Choose the second factor to compare. Enter 1 for GDP per capita, Enter 3 for Healthy Life Expectancy, Enter 4 for Freedom to Make Life Choices, or Enter 5 for Maximum Infection Rate per capita. ')
+    factorn1 = "Social support"
+if(factorn1 == "3"):
+    factorn2 = input('Choose the second factor to compare. Enter 1 for GDP per capita, Enter 2 for Social Support, Enter 4 for Freedom to Make Life Choices, or Enter 5 for Maximum Infection Rate per capita. ')
+    factorn1 = "Healthy life expectancy"
+if(factorn1 == "4"):
+    factorn1 = "Freedom to make life choices"
+    factorn2 = input('Choose the second factor to compare. Enter 1 for GDP per capita, Enter 2 for Social Support, Enter 3 for Healthy Life Expectancy, or Enter 5 for Maximum Infection Rate per capita. ')
+if(factorn1 == "5"):
+    factorn1 = "Max Infection Rate Per 10,000 Pop"
+    factorn2 = input('Choose the second factor to compare. Enter 1 for GDP per capita, Enter 2 for Social Support, Enter 3 for Healthy Life Expectancy, or Enter 4 for Freedom to Make Life Choices. ')
+
+if(factorn2 == "1"):
+    factorn2 = "GDP per capita"
+if(factorn2 == "2"):
+    factorn2 = "Social support"
+if(factorn2 == "3"):
+    factorn2 = "Healthy life expectancy"
+if(factorn2 == "4"):
+    factorn2 = "Freedom to make life choices"
+if(factorn2 == "5"):
+    factorn2 = "Max Infection Rate Per 10,000 Pop"
 
 
-
-
-
+x = pcdata[factorn1]
+y = pcdata[factorn2]
+sns.scatterplot(x,np.log(y))
+sns.regplot(x,np.log(y))
+plt.show()
+input('Please press enter to end the function.')
 
 
 
@@ -126,3 +153,4 @@ input()
 
 
 print('Function Complete.')
+
